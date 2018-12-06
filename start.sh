@@ -1,1 +1,1 @@
-python3 awsConnect.py -e a3oiqdupiswasc-ats.iot.eu-west-1.amazonaws.com -r auth/root-CA.crt -c auth/raspi-tree.cert.pem -k auth/raspi-tree.private.key
+python3 /home/pi/Tree-API/awsConnect.py -e a3oiqdupiswasc-ats.iot.eu-west-1.amazonaws.com -r /home/pi/Tree-API/auth/root-CA.crt -c /home/pi/Tree-API/auth/raspi-tree.cert.pem -k /home/pi/Tree-API/auth/raspi-tree.private.key

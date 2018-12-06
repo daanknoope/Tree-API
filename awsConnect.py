@@ -30,10 +30,11 @@ adapter.start()
 d=adapter.connect(mac)
 
 modes = {
-	"ALWAYS_ON":"0501020340",
+	"AAN":"0501020340",
 	"RESET_STATE":"0501020300",
-	"FAST_TWINKLE": "0501020320",
-	"WAVE": "0501020301"}
+	"KNIPPEREN": "0501020320",
+	"WAVE": "0501020301",
+        "UIT": "0501020300"}
 
 def writeCode(hexString):
     print(hexString)
