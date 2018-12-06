@@ -16,5 +16,6 @@ def writeCode(hexString):
     d.disconnect()
 
 writeCode(RESET_STATE)
-#writeCode(ALWAYS_ON)
-writeCode(WAVE)
+writeCode(ALWAYS_ON)
+#writeCode(WAVE)
+#writeCode(FAST_TWINKLE)
